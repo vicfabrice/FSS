@@ -8,8 +8,6 @@ struct FileInfo {
 
     string nombre;
     int tamanio;
-    BlockList* block;
+    BlockList* Block;
 
 };
-
-typedef int block;
