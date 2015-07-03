@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FSS" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/FSS" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/FSS" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="FileInfo.cpp" />
+		<Unit filename="FileInfo.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/Disc/Disc.cpp" />
+		<Unit filename="src/Disc/Disc.h" />
+		<Unit filename="src/Disc/Segment.cpp" />
+		<Unit filename="src/Disc/Segment.h" />
+		<Unit filename="src/FSS/FSS.cpp" />
+		<Unit filename="src/FSS/FSS.h" />
+		<Unit filename="src/Lists/BlockList.cpp" />
+		<Unit filename="src/Lists/BlockList.h" />
+		<Unit filename="src/Lists/CharList.cpp" />
+		<Unit filename="src/Lists/CharList.h" />
+		<Unit filename="src/Main.cpp" />
+		<Unit filename="src/Map/Map.cpp" />
+		<Unit filename="src/Map/Map.h" />
+		<Unit filename="src/Maybe/Maybe.cpp" />
+		<Unit filename="src/Maybe/Maybe.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

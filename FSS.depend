@@ -1,0 +1,59 @@
+# depslib dependency file v1.0
+1434734176 source:/home/aeviso/Documents/unq/materias/estructuras/svn/tp_finales/2015s1/FSS/src/Disc/Disc.cpp
+	"Disc.h"
+	<stdlib.h>
+	<vector>
+
+1434389239 /home/aeviso/Documents/unq/materias/estructuras/svn/tp_finales/2015s1/FSS/src/Disc/Disc.h
+	"Segment.h"
+
+1434663296 /home/aeviso/Documents/unq/materias/estructuras/svn/tp_finales/2015s1/FSS/src/Disc/Segment.h
+	"../Lists/BlockList.h"
+
+1434664934 /home/aeviso/Documents/unq/materias/estructuras/svn/tp_finales/2015s1/FSS/src/Lists/BlockList.h
+
+1434734164 source:/home/aeviso/Documents/unq/materias/estructuras/svn/tp_finales/2015s1/FSS/src/Disc/Segment.cpp
+	"Segment.h"
+	<stdlib.h>
+	<iostream>
+
+1434664929 source:/home/aeviso/Documents/unq/materias/estructuras/svn/tp_finales/2015s1/FSS/src/Lists/BlockList.cpp
+	"BlockList.h"
+	<stdlib.h>
+	<iostream>
+
+1434388429 source:/home/aeviso/Documents/unq/materias/estructuras/svn/tp_finales/2015s1/FSS/src/Lists/CharList.cpp
+	"CharList.h"
+	<stdlib.h>
+	<iostream>
+
+1434664309 /home/aeviso/Documents/unq/materias/estructuras/svn/tp_finales/2015s1/FSS/src/Lists/CharList.h
+
+1434733330 source:/home/aeviso/Documents/unq/materias/estructuras/svn/tp_finales/2015s1/FSS/src/Main.cpp
+	"Disc/Disc.h"
+	<iostream>
+
+1434731892 source:/home/aeviso/Documents/unq/materias/estructuras/svn/tp_finales/2015s1/FSS/src/Map/Map.cpp
+	"Map.h"
+	<stdlib.h>
+	<iostream>
+
+1434732810 /home/aeviso/Documents/unq/materias/estructuras/svn/tp_finales/2015s1/FSS/src/Map/Map.h
+	"../Lists/CharList.h"
+	"../Maybe/Maybe.h"
+
+1434313889 /home/aeviso/Documents/unq/materias/estructuras/svn/tp_finales/2015s1/FSS/src/Maybe/Maybe.h
+
+1434314398 source:/home/aeviso/Documents/unq/materias/estructuras/svn/tp_finales/2015s1/FSS/src/Maybe/Maybe.cpp
+	"Maybe.h"
+	<stdlib.h>
+	<iostream>
+
+1434663479 source:/home/aeviso/Documents/unq/materias/estructuras/svn/tp_finales/2015s1/FSS/src/Tree/Tree.cpp
+	"Tree.h"
+	<stdlib.h>
+	<iostream>
+
+1434314965 /home/aeviso/Documents/unq/materias/estructuras/svn/tp_finales/2015s1/FSS/src/Tree/Tree.h
+	"../Disc/Segment.h"
+
