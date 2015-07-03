@@ -1,8 +1,13 @@
 #ifndef FSS_H
 #define FSS_H
 
+#include "../Lists/CharList.h"
+#include "../Lists/BlockList.h"
+#include "../Map/Map.h"
 
-#define MAP_ELEM_TYPE FileInfo  // Definir FileInfo?????
+
+
+// #define MAP_ELEM_TYPE FileInfo  // Definir FileInfo?????
 
 //Como usuario, tengo que usar todas las funciones de Map
 
@@ -13,7 +18,7 @@ typedef FssSt* FSS;
 
 FSS montar(int n);
 
-int tamano(Disc d);
+int tamanoDisco(FSS fs);
 
 bool existe(CharList fn, FSS fs);
 

@@ -31,16 +31,14 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="FileInfo.cpp" />
-		<Unit filename="FileInfo.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
 		<Unit filename="src/Disc/Disc.cpp" />
 		<Unit filename="src/Disc/Disc.h" />
 		<Unit filename="src/Disc/Segment.cpp" />
 		<Unit filename="src/Disc/Segment.h" />
 		<Unit filename="src/FSS/FSS.cpp" />
 		<Unit filename="src/FSS/FSS.h" />
+		<Unit filename="src/FileInfo/FileInfo.cpp" />
+		<Unit filename="src/FileInfo/FileInfo.h" />
 		<Unit filename="src/Lists/BlockList.cpp" />
 		<Unit filename="src/Lists/BlockList.h" />
 		<Unit filename="src/Lists/CharList.cpp" />

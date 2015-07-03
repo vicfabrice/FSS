@@ -1,6 +1,7 @@
 #include <iostream>
-#include "BlockList.h"
+#include "../Lists/BlockList.h"
 
 using namespace std;
 
-struct FileInfo;
+struct FileInfoSt;
+typedef FileInfoSt* FileInfo;

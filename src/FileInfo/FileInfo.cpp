@@ -1,13 +1,14 @@
 #include <iostream>
+#include "FileInfo.h"
 
 using namespace std;
 
-struct FileInfo {
+struct FileInfoSt {
 
     //nombre, tama ̃no y los bloques lo componen.
 
     string nombre;
     int tamanio;
-    BlockList* Block;
+    BlockList* blocklist;
 
 };

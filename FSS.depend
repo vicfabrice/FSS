@@ -57,3 +57,72 @@
 1434314965 /home/aeviso/Documents/unq/materias/estructuras/svn/tp_finales/2015s1/FSS/src/Tree/Tree.h
 	"../Disc/Segment.h"
 
+1434734176 source:c:\users\crist\documents\fssproject\src\disc\disc.cpp
+	"Disc.h"
+	<stdlib.h>
+	<vector>
+
+1434389240 c:\users\crist\documents\fssproject\src\disc\disc.h
+	"Segment.h"
+
+1434663296 c:\users\crist\documents\fssproject\src\disc\segment.h
+	"../Lists/BlockList.h"
+
+1434664934 c:\users\crist\documents\fssproject\src\lists\blocklist.h
+
+1434734164 source:c:\users\crist\documents\fssproject\src\disc\segment.cpp
+	"Segment.h"
+	<stdlib.h>
+	<iostream>
+
+1435896178 source:c:\users\crist\documents\fssproject\src\fileinfo\fileinfo.cpp
+	<iostream>
+	"FileInfo.h"
+
+1435896132 c:\users\crist\documents\fssproject\src\fileinfo\fileinfo.h
+	<iostream>
+	"../Lists/BlockList.h"
+
+1435890861 source:c:\users\crist\documents\fssproject\src\fss\fss.cpp
+	"FSS.h"
+
+1434664930 source:c:\users\crist\documents\fssproject\src\lists\blocklist.cpp
+	"BlockList.h"
+	<stdlib.h>
+	<iostream>
+
+1434388430 source:c:\users\crist\documents\fssproject\src\lists\charlist.cpp
+	"CharList.h"
+	<stdlib.h>
+	<iostream>
+
+1434664310 c:\users\crist\documents\fssproject\src\lists\charlist.h
+
+1435900719 source:c:\users\crist\documents\fssproject\src\main.cpp
+	"Map/Map.h"
+	"Disc/Disc.h"
+	"FSS/FSS.h"
+	<iostream>
+
+1435901374 c:\users\crist\documents\fssproject\src\fss\fss.h
+	"../Lists/CharList.h"
+	"../Lists/BlockList.h"
+	"../Map/Map.h"
+
+1435900078 c:\users\crist\documents\fssproject\src\map\map.h
+	"../Lists/CharList.h"
+	"../Maybe/Maybe.h"
+
+1435902359 c:\users\crist\documents\fssproject\src\maybe\maybe.h
+	"../FileInfo/FileInfo.h"
+
+1435905460 source:c:\users\crist\documents\fssproject\src\map\map.cpp
+	<iostream>
+	"Map.h"
+	"../Maybe/Maybe.h"
+
+1434314398 source:c:\users\crist\documents\fssproject\src\maybe\maybe.cpp
+	"Maybe.h"
+	<stdlib.h>
+	<iostream>
+

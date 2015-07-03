@@ -1,6 +1,7 @@
 #ifndef MAYBE_H
 #define MAYBE_H
 
+#include "../FileInfo/FileInfo.h"
 // Definir FileInfo e incluirlo si es necesario
 
 #define MAYBE_ELEM_TYPE FileInfo
