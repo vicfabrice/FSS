@@ -75,7 +75,7 @@
 	<stdlib.h>
 	<iostream>
 
-1435896178 source:c:\users\crist\documents\fssproject\src\fileinfo\fileinfo.cpp
+1435970088 source:c:\users\crist\documents\fssproject\src\fileinfo\fileinfo.cpp
 	<iostream>
 	"FileInfo.h"
 
@@ -83,7 +83,7 @@
 	<iostream>
 	"../Lists/BlockList.h"
 
-1435890861 source:c:\users\crist\documents\fssproject\src\fss\fss.cpp
+1435970117 source:c:\users\crist\documents\fssproject\src\fss\fss.cpp
 	"FSS.h"
 
 1434664930 source:c:\users\crist\documents\fssproject\src\lists\blocklist.cpp
@@ -98,16 +98,17 @@
 
 1434664310 c:\users\crist\documents\fssproject\src\lists\charlist.h
 
-1435900719 source:c:\users\crist\documents\fssproject\src\main.cpp
+1435905918 source:c:\users\crist\documents\fssproject\src\main.cpp
 	"Map/Map.h"
 	"Disc/Disc.h"
 	"FSS/FSS.h"
 	<iostream>
 
-1435901374 c:\users\crist\documents\fssproject\src\fss\fss.h
+1435963993 c:\users\crist\documents\fssproject\src\fss\fss.h
 	"../Lists/CharList.h"
 	"../Lists/BlockList.h"
 	"../Map/Map.h"
+	"../Disc/Disc.h"
 
 1435900078 c:\users\crist\documents\fssproject\src\map\map.h
 	"../Lists/CharList.h"

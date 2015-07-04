@@ -63,32 +63,52 @@ void assocM(Map &m, CharList k, MAP_ELEM_TYPE v){
     mNext->value = Just(v);
 }
 
+bool noTieneHijos(Map m){
+
+    bool noTiene = true;
+
+    for (int i=0; i<26; i++){
+
+        noTiene = m->hijos[i] == NULL;
+
+    }
+}
 
 
+void deleteM(Map &m, CharList k){
 
-//void deleteM(Map &m, CharList k){
-//
-//    // Si no tiene valor y no tiene hijos, borro. Esa sería la condición.
-//
-//    // Precond: La palabra k existe en mi mapa m
-//
-//    delete fromJust(lookupM(m,k)); //borrás el valor al que te lleva el charlist k
-//
-//    while (not isNilCL(k)){
-//
-//        if((m->value == NULL))/*&&(no tiene hijos))¿ Cómo compruebo que no tiene hijos?*/{
-//
-//            delete m;
-//             k = tailCL(k);
-//
-//        }
-//        else {
-//
-//            deleteM(m->hijos);
-//        }
-//    }
-//
-//}
+    //Precondición: El Charlist k es válido, por lo tanto tiene un valor
+
+
+    // Si tiene hijos, puedo borrar valor pero no nodo
+
+    if (not isNilCL(k)){ //si no es vacío el charlist
+
+        deleteM((m->hijos[(hashC(headCL(k)))]), tailCL(k));
+
+          if (noTieneHijos(m)&& isNothing(m->value)){ //si tiene hijos
+
+            delete[] m->hijos;
+            destroyMaybe(m->value);
+            delete m;
+            m = NULL;
+        }
+    }
+    else { //si el charlist es nil
+
+        destroyMaybe(m->value);
+        m->value = Nothing();
+
+          if (noTieneHijos(m)){ //si no tiene hijos
+
+            delete[] m->hijos;
+            destroyMaybe(m->value);
+            delete m;
+            m = NULL;
+            }
+        }
+}
+
 
 Maybe lookupM(Map m, CharList k){
 
@@ -117,11 +137,11 @@ Maybe lookupM(Map m, CharList k){
 
 
 
-void printMap(Map &m)
-/*
+/*void printMap(Map &m)
+
    PROPOSITO: imprime el mapa wey
    PRECOND: ninguna, es una operacion total
-*/
+
 {
   if (m== NULL) {
     cout << "Naditas";
@@ -134,6 +154,6 @@ void printMap(Map &m)
 
 
   }
-}
+}*/
 
 

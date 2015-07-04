@@ -4,10 +4,11 @@
 #include "../Lists/CharList.h"
 #include "../Lists/BlockList.h"
 #include "../Map/Map.h"
+#include "../Disc/Disc.h"
 
 
 
-// #define MAP_ELEM_TYPE FileInfo  // Definir FileInfo?????
+// #define MAP_ELEM_TYPE FileInfo
 
 //Como usuario, tengo que usar todas las funciones de Map
 
