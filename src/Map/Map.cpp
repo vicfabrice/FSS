@@ -71,7 +71,13 @@ bool noTieneHijos(Map m){
 
         noTiene = m->hijos[i] == NULL;
 
+        if (!noTiene){
+            break;
+        }
+
     }
+
+    return noTiene;
 }
 
 
@@ -82,14 +88,13 @@ void deleteM(Map &m, CharList k){
 
     // Si tiene hijos, puedo borrar valor pero no nodo
 
-    if (not isNilCL(k)){ //si no es vacío el charlist
+    if (!isNilCL(k)){ //si no es vacío el charlist
 
         deleteM((m->hijos[(hashC(headCL(k)))]), tailCL(k));
 
-          if (noTieneHijos(m)&& isNothing(m->value)){ //si tiene hijos
+          if (noTieneHijos(m)&& isNothing(m->value)){ //si no tiene hijos
 
             delete[] m->hijos;
-            destroyMaybe(m->value);
             delete m;
             m = NULL;
         }
@@ -102,7 +107,6 @@ void deleteM(Map &m, CharList k){
           if (noTieneHijos(m)){ //si no tiene hijos
 
             delete[] m->hijos;
-            destroyMaybe(m->value);
             delete m;
             m = NULL;
             }

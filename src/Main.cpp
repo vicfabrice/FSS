@@ -9,20 +9,52 @@ using namespace std;
 
 int main (){
 
-    Map m = createNode();
+
+    // caba
     CharList cl1 = NilCL();
     CharList cl2 = ConsCL('a',cl1);
+    CharList cl3 = ConsCL('b',cl2);
+    CharList cl4 = ConsCL('a',cl3);
+    CharList cl5 = ConsCL('c',cl4);
+
+    printCharList(cl5);
+
+    Map m = createNode();
+
+    assocM(m,cl5,(MAP_ELEM_TYPE)3);
+
+    Maybe val = lookupM(m, cl5);
+    if(! isNothing(val)) {
+     cout << ": " << fromJust(val) << endl;
+    } else {
+     cout << ": no existe" << endl;
+    }
+
+    deleteM(m,cl5);
+
+    val = lookupM(m, cl5);
+
+    if(! isNothing(val)) {
+     cout << ": " << fromJust(val) << endl;
+    } else {
+     cout << ": no existe" << endl;
+    }
 
 
-    CharList cl3 = ConsCL('t',cl2);
-    CharList cl4 = ConsCL('e',cl3);
-    CharList cl5 = ConsCL('t',cl4);
 
-     printCharList(cl5);
+    // cout << ": " << fromJust(lookupM(m, cl5)) << endl;
 
-    assocM(m,cl5,(MAP_ELEM_TYPE)8);
-
-    cout << ": " << fromJust(lookupM(m, cl5)) << endl;
+//// cab
+//    cl1 = NilCL();
+//    cl2 = ConsCL('b',cl1);
+//    cl3 = ConsCL('a',cl2);
+//    cl4 = ConsCL('c',cl3);
+//
+//     printCharList(cl4);
+//
+//    assocM(m,cl4,(MAP_ELEM_TYPE)5);
+//
+//    cout << ": " << fromJust(lookupM(m, cl4)) << endl;
 
 return 0;
 }
