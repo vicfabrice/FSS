@@ -44,7 +44,7 @@ Map createNode(){
 }
 
 void assocM(Map &m, CharList k, MAP_ELEM_TYPE v){
-
+cout << "assocM" << endl;
     Map mNext;
 
     if(m==NULL) {
@@ -53,11 +53,13 @@ void assocM(Map &m, CharList k, MAP_ELEM_TYPE v){
     mNext = m;
     while (not isNilCL(k)){
         int indiceHijo = hashC(headCL(k));
+        cout << indiceHijo << endl;
         // si no existe el hijo
         if(mNext->hijos[indiceHijo]==NULL) {
+                cout << "crear nodo" << endl;
             mNext->hijos[indiceHijo] = createNode();
-            mNext = mNext->hijos[indiceHijo];
         }
+        mNext = mNext->hijos[indiceHijo];
         k = tailCL(k);
     }
     mNext->value = Just(v);

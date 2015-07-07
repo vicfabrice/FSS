@@ -19,11 +19,42 @@ int main (){
 
     printCharList(cl5);
 
+
+// cab
+    CharList cl7 = NilCL();
+    CharList cl8 = ConsCL('b',cl7);
+    CharList cl9 = ConsCL('a',cl8);
+    CharList cl10 = ConsCL('c',cl9);
+
+    printCharList(cl10);
+
+
     Map m = createNode();
 
     assocM(m,cl5,(MAP_ELEM_TYPE)3);
+    assocM(m,cl10,(MAP_ELEM_TYPE)4);
 
-    Maybe val = lookupM(m, cl5);
+
+    Maybe val = lookupM(m, cl10);
+    if(! isNothing(val)) {
+     cout << ": " << fromJust(val) << endl;
+    } else {
+     cout << ": no existe" << endl;
+    }
+
+    deleteM(m,cl10);
+
+    val = lookupM(m, cl10);
+
+    if(! isNothing(val)) {
+     cout << ": " << fromJust(val) << endl;
+    } else {
+     cout << ": no existe" << endl;
+    }
+
+
+
+    val = lookupM(m, cl5);
     if(! isNothing(val)) {
      cout << ": " << fromJust(val) << endl;
     } else {
@@ -40,21 +71,6 @@ int main (){
      cout << ": no existe" << endl;
     }
 
-
-
-    // cout << ": " << fromJust(lookupM(m, cl5)) << endl;
-
-//// cab
-//    cl1 = NilCL();
-//    cl2 = ConsCL('b',cl1);
-//    cl3 = ConsCL('a',cl2);
-//    cl4 = ConsCL('c',cl3);
-//
-//     printCharList(cl4);
-//
-//    assocM(m,cl4,(MAP_ELEM_TYPE)5);
-//
-//    cout << ": " << fromJust(lookupM(m, cl4)) << endl;
 
 return 0;
 }
