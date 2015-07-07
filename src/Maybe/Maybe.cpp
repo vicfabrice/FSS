@@ -1,5 +1,4 @@
 #include "Maybe.h"
-
 #include <stdlib.h>
 #include <iostream>
 
@@ -45,7 +44,6 @@ void destroyMaybe(Maybe &m)
     m = NULL;
   }
 }
-
 
 void printMaybe(Maybe m)
 {

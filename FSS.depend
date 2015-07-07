@@ -75,16 +75,18 @@
 	<stdlib.h>
 	<iostream>
 
-1435970088 source:c:\users\crist\documents\fssproject\src\fileinfo\fileinfo.cpp
+1436244391 source:c:\users\crist\documents\fssproject\src\fileinfo\fileinfo.cpp
 	<iostream>
 	"FileInfo.h"
 
-1435896132 c:\users\crist\documents\fssproject\src\fileinfo\fileinfo.h
+1436244490 c:\users\crist\documents\fssproject\src\fileinfo\fileinfo.h
 	<iostream>
 	"../Lists/BlockList.h"
+	"../Lists/CharList.h"
 
-1435970117 source:c:\users\crist\documents\fssproject\src\fss\fss.cpp
+1436244183 source:c:\users\crist\documents\fssproject\src\fss\fss.cpp
 	"FSS.h"
+	"../FileInfo/FileInfo.h"
 
 1434664930 source:c:\users\crist\documents\fssproject\src\lists\blocklist.cpp
 	"BlockList.h"
@@ -104,9 +106,10 @@
 	"FSS/FSS.h"
 	<iostream>
 
-1435963993 c:\users\crist\documents\fssproject\src\fss\fss.h
+1436243566 c:\users\crist\documents\fssproject\src\fss\fss.h
 	"../Lists/CharList.h"
 	"../Lists/BlockList.h"
+	"../FileInfo/FileInfo.h"
 	"../Map/Map.h"
 	"../Disc/Disc.h"
 
@@ -114,16 +117,24 @@
 	"../Lists/CharList.h"
 	"../Maybe/Maybe.h"
 
-1435902359 c:\users\crist\documents\fssproject\src\maybe\maybe.h
+1436242088 c:\users\crist\documents\fssproject\src\maybe\maybe.h
 	"../FileInfo/FileInfo.h"
 
-1436233949 source:c:\users\crist\documents\fssproject\src\map\map.cpp
+1436238513 source:c:\users\crist\documents\fssproject\src\map\map.cpp
 	<iostream>
 	"Map.h"
 	"../Maybe/Maybe.h"
 
-1434314398 source:c:\users\crist\documents\fssproject\src\maybe\maybe.cpp
+1436241020 source:c:\users\crist\documents\fssproject\src\maybe\maybe.cpp
 	"Maybe.h"
 	<stdlib.h>
+	<iostream>
+
+1436245592 source:c:\users\crist\documents\fssproject\src\mainej1.cpp
+
+1436245553 source:c:\users\crist\documents\fssproject\src\mainej2.cpp
+	"Map/Map.h"
+	"Disc/Disc.h"
+	"FSS/FSS.h"
 	<iostream>
 

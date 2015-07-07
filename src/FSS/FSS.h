@@ -1,21 +1,16 @@
 #ifndef FSS_H
 #define FSS_H
-
 #include "../Lists/CharList.h"
 #include "../Lists/BlockList.h"
+#include "../FileInfo/FileInfo.h"
 #include "../Map/Map.h"
 #include "../Disc/Disc.h"
 
 
-
-// #define MAP_ELEM_TYPE FileInfo
-
-//Como usuario, tengo que usar todas las funciones de Map
+//#define MAP_ELEM_TYPE FileInfo
 
 struct FssSt;
 typedef FssSt* FSS;
-
-
 
 FSS montar(int n);
 

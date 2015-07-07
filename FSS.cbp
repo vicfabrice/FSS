@@ -43,7 +43,8 @@
 		<Unit filename="src/Lists/BlockList.h" />
 		<Unit filename="src/Lists/CharList.cpp" />
 		<Unit filename="src/Lists/CharList.h" />
-		<Unit filename="src/Main.cpp" />
+		<Unit filename="src/MainEj1.cpp" />
+		<Unit filename="src/MainEj2.cpp" />
 		<Unit filename="src/Map/Map.cpp" />
 		<Unit filename="src/Map/Map.h" />
 		<Unit filename="src/Maybe/Maybe.cpp" />
